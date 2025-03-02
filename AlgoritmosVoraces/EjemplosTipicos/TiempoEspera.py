@@ -3,7 +3,7 @@ from typing import Tuple
 
 def indice_mejor_candidato(tareas: list[int], candidatos: set[int]) -> int:
     indice_mejor_candidato = -1
-    mejor_candidato = max(tareas) + 1
+    menor_valor = float('inf')
 
     for i in candidatos:
         if tareas[i] < mejor_candidato:

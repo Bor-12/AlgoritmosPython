@@ -16,7 +16,7 @@
 # Objetivo:
 # Encontrar el subconjunto de actividades compatibles que maximice la cantidad seleccionada.
 def mejor_candidato(final_actividades, candidatos):
-    minimo = max(final_actividades) + 1
+    minimo = float('inf')
     indice = -1
     for i in candidatos:
         if final_actividades[i] < minimo:
