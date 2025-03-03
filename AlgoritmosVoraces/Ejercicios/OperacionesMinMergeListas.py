@@ -2,7 +2,7 @@
 se descompone en varias sublistas de tama˜nos diferentes. El algoritmo emplea un
 m´etodo para combinar las sublistas mezclando parejas de ´estas progresivamente
 hasta ordenar la lista original.
-Este ejercicio consiste implementar un m´etodo para hallar el n´umero m´ınimo
+Este ejercicio consiste implementar un m´etodo para hallar el numero mınimo
 de operaciones que necesitar´ıa una estrategia (voraz) ´optima para ordenar la lista
 original, cuando se desea mezclar n listas ordenadas, las cuales pueden tener tama˜nos
 diferentes. Se supondr´a que se realiza una operaci´on por cada elemento a ordenar
@@ -21,7 +21,6 @@ def indice_menor(len_listas, candidatos):
 def operaciones_minimas_merge(len_listas: list[int]) -> int:
     candidatos = set(range(len(len_listas)))
     numero_de_operaciones = 0
-
     while len(candidatos) > 1:
         # Seleccionamos los dos índices con las listas más pequeñas
         indice1 = indice_menor(len_listas, candidatos)
