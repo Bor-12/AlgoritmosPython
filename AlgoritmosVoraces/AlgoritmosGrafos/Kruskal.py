@@ -3,17 +3,17 @@ from typing import List, Tuple, Union
 
 
 def find(conjunto_disjunto: List[int], nodo: int) -> int:
-    representante = nodo
-    while conjunto_disjunto[representante] >= 0:
-        representante = conjunto_disjunto[representante]
+    indice = nodo
+    while conjunto_disjunto[indice] >= 0:
+        indice = conjunto_disjunto[indice]
 
     actual = nodo
     while conjunto_disjunto[actual] >= 0:
         padre = conjunto_disjunto[actual]
-        conjunto_disjunto[actual] = representante
+        conjunto_disjunto[actual] = indice
         actual = padre
 
-    return representante
+    return indice
 
 
 def union(conjunto_disjunto: List[int], raiz1: int, raiz2: int) -> int:
@@ -54,3 +54,11 @@ def kruskal(lista_de_aristas: List[Tuple[int, int, float]], n: int) -> Union[Tup
         return n, sol
     else:
         return None
+
+n0 = 5
+lista_de_aristas = [
+    (0, 1, 1.), (1, 0, 1.), (1, 2, 1.), (1, 3, 1.), (1, 4, 2.),
+    (2, 1, 1.), (2, 3, 2.), (2, 4, 1.), (3, 1, 1.), (3, 2, 2.),
+    (3, 4, 1.), (4, 2, 1.), (4, 3, 1.), (4, 1, 2.)
+]
+print(kruskal(lista_de_aristas, n0))
