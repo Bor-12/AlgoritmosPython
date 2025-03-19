@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AlgoritmosPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AlgoritmosPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/.idea/AlgoritmosVoraces.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos/Dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos/Dijkstra.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tx1Gj8G1YDnMnX8OOwt8YJQH3Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.AlfombraRoja.executor": "Run",
+    "Python.Dijkstra.executor": "Run",
+    "Python.Kruskal.executor": "Run",
+    "Python.Luces.executor": "Run",
+    "Python.Mochila.executor": "Run",
+    "Python.PlanificacionPlazoFijo.executor": "Run",
+    "Python.Prim.executor": "Run",
+    "Python.ProblemaDelViajante.executor": "Run",
+    "Python.SecondDates.executor": "Run",
+    "Python.Velada.executor": "Run",
+    "Python.VueltaAlMundo.executor": "Run",
+    "Python.monedas.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/AlgoritmosPython/AlgoritmosVoraces/EjemplosTipicos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\EjemplosTipicos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\Practicas" />
+      <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\Ejercicios" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
+        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="" />
+      <created>1741278817363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741278817363</updated>
+      <workItem from="1741278818439" duration="4704000" />
+      <workItem from="1741963771010" duration="1908000" />
+      <workItem from="1741965706512" duration="2462000" />
+      <workItem from="1741968193999" duration="3518000" />
+      <workItem from="1742028649093" duration="1061000" />
+      <workItem from="1742031738555" duration="7704000" />
+      <workItem from="1742039729538" duration="941000" />
+      <workItem from="1742226696511" duration="4451000" />
+      <workItem from="1742236470969" duration="88000" />
+      <workItem from="1742238923646" duration="692000" />
+      <workItem from="1742395954037" duration="3594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$Prim.coverage" NAME="Prim Coverage Results" MODIFIED="1741278903224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$Velada.coverage" NAME="Velada Coverage Results" MODIFIED="1741971636289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$Luces.coverage" NAME="Luces Coverage Results" MODIFIED="1742037472456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$ProblemaDelViajante.coverage" NAME="ProblemaDelViajante Coverage Results" MODIFIED="1741280362037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$AlfombraRoja.coverage" NAME="AlfombraRoja Coverage Results" MODIFIED="1741969404983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$Dijkstra.coverage" NAME="Dijkstra Coverage Results" MODIFIED="1742039929792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$Mochila.coverage" NAME="Mochila Coverage Results" MODIFIED="1742035029695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/EjemplosTipicos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$VueltaAlMundo.coverage" NAME="VueltaAlMundo Coverage Results" MODIFIED="1742398655067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$SecondDates.coverage" NAME="SecondDates Coverage Results" MODIFIED="1742230446192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$Kruskal.coverage" NAME="Kruskal Coverage Results" MODIFIED="1742039348706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
+  </component>
+</project>
