@@ -39,22 +39,4 @@ grafo = [
 ]
 
 print(dijkstra(grafo, inicio=0))
-x = 0
-n = 6
-for i in range(1, n):
-    for j in range(j, n):  # <- Aquí parece que hay un error tipográfico
-        for k in range(k, n):  # <- Aquí también hay un error
-            x = x + 1
-
-print("-----------------")
-x = 0
-
-if n % 2 == 0:
-    for i in range(1, n):
-        print(i)
-        for j in range(j, i):  # <- Aquí parece haber otro error tipográfico
-            print("\t", j)
-
-else:
-    x = -1
 
