@@ -6,21 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/EjemplosTipicos/Mochila.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/EjemplosTipicos/mochila.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/EjemplosTipicos/PlanificacionPlazoFijo.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/EjemplosTipicos/planificacion_plazo_fijo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/EjemplosTipicos/TiempoEspera.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/EjemplosTipicos/tiempo_espera.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/Ejercicios/MinimoNumeroPlataformasTren.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/Ejercicios/minimo_numero_plataformas_tren.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/Ejercicios/OperacionesMinMergeListas.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/Ejercicios/operaciones_min_merge_listas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/Ejercicios/ProblemaCodificacionOptima.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/Ejercicios/problema_codificacion_optima.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/Ejercicios/ProblemaEmparejamientoIntervalos.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/Ejercicios/problema_emparejamiento_intervalos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/AlfombraRoja.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/alfombra_roja.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/CapitanCatSparrow.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/capitan_cat_sparrow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/Luces.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/luces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/SecondDates.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/second_dates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/Velada.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/velada.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/VueltaAlMundo.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgoritmosVoraces/Practicas/vuelta_al_mundo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos/Fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos/fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos/MochilaEnteros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos/mochila_enteros.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +48,11 @@
     "Python.SubirEscaleras.executor": "Run",
     "Python.Velada.executor": "Run",
     "Python.VueltaAlMundo.executor": "Run",
+    "Python.busqueda_binaria.executor": "Run",
     "Python.combinaciones_enteros.executor": "Run",
+    "Python.es_dificil_copiar.executor": "Run",
     "Python.monedas.executor": "Run",
+    "Python.sobreviviendo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -84,6 +72,7 @@
       <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\EjemplosTipicos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AlgoritmosPython\RecorridosEstructurasDeDatos\Practica" />
       <recent name="D:\AlgoritmosPython" />
       <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\Practicas" />
       <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\Ejercicios" />
@@ -119,7 +108,8 @@
       <workItem from="1742545030282" duration="5712000" />
       <workItem from="1742550861398" duration="259000" />
       <workItem from="1742562380250" duration="1217000" />
-      <workItem from="1742582848802" duration="6041000" />
+      <workItem from="1742582848802" duration="6456000" />
+      <workItem from="1742635483424" duration="4801000" />
     </task>
     <servers />
   </component>
@@ -146,13 +136,16 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$SubirEscaleras.coverage" NAME="SubirEscaleras Coverage Results" MODIFIED="1742585926912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$VueltaAlMundo.coverage" NAME="VueltaAlMundo Coverage Results" MODIFIED="1742398655067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Fibonacci.coverage" NAME="Fibonacci Coverage Results" MODIFIED="1742562982304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$es_dificil_copiar.coverage" NAME="es_dificil_copiar Coverage Results" MODIFIED="1742639691468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Kruskal.coverage" NAME="Kruskal Coverage Results" MODIFIED="1742039348706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Prim.coverage" NAME="Prim Coverage Results" MODIFIED="1741278903224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Luces.coverage" NAME="Luces Coverage Results" MODIFIED="1742037472456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$CapitanCatSparrow.coverage" NAME="CapitanCatSparrow Coverage Results" MODIFIED="1742551091708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$sobreviviendo.coverage" NAME="sobreviviendo Coverage Results" MODIFIED="1742638335772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$CadenasBinarias.coverage" NAME="CadenasBinarias Coverage Results" MODIFIED="1742586775201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtranking/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$MochilaEnteros.coverage" NAME="MochilaEnteros Coverage Results" MODIFIED="1742585263233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
-    <SUITE FILE_PATH="coverage/AlgoritmosPython$combinaciones_enteros.coverage" NAME="combinaciones_enteros Coverage Results" MODIFIED="1742588943576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtranking/EjemplosTipicos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$busqueda_binaria.coverage" NAME="busqueda_binaria Coverage Results" MODIFIED="1742640321956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/BusquedasLista" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$combinaciones_enteros.coverage" NAME="combinaciones_enteros Coverage Results" MODIFIED="1742589021145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtranking/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$SecondDates.coverage" NAME="SecondDates Coverage Results" MODIFIED="1742230446192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
   </component>
 </project>
