@@ -115,11 +115,11 @@ def strassen(matriz_a, matriz_b, dimension):
 
     if dimension == 1:
         return [[matriz_a[0][0] * matriz_b[0][0]]]
-
+    #dividir:
     A11, A12, A21, A22 = dividir_matriz_en_4(matriz_a)
     B11, B12, B21, B22 = dividir_matriz_en_4(matriz_b)
     nueva_dimension = dimension // 2
-
+    #calcular:
     M1 = strassen(sumar_matrices(A11, A22), sumar_matrices(B11, B22), nueva_dimension)
     M2 = strassen(sumar_matrices(A21, A22), B11, nueva_dimension)
     M3 = strassen(A11, restar_matrices(B12, B22), nueva_dimension)
@@ -127,7 +127,7 @@ def strassen(matriz_a, matriz_b, dimension):
     M5 = strassen(sumar_matrices(A11, A12), B22, nueva_dimension)
     M6 = strassen(restar_matrices(A21, A11), sumar_matrices(B11, B12), nueva_dimension)
     M7 = strassen(restar_matrices(A12, A22), sumar_matrices(B21, B22), nueva_dimension)
-
+    #Convinar:
     C11 = sumar_matrices(restar_matrices(sumar_matrices(M1, M4), M5), M7)
     C12 = sumar_matrices(M3, M5)
     C21 = sumar_matrices(M2, M4)
@@ -193,3 +193,91 @@ matriz_b = [
 ]
 n = 5
 print(strassen(matriz_a, matriz_b, n))  # Resultado esperado: [[4, 6], [12, 14], [20, 22]]
+#Como podemos ver de esta fomra se divide en 8 subproblemas por lo que su complejidad es mayor
+def multiplicar_matrices_por_bloques(matriz_a, matriz_b):
+    # matriz_a: m x n, matriz_b: n x p
+    filas_a, columnas_a = len(matriz_a), len(matriz_a[0])
+    filas_b, columnas_b = len(matriz_b), len(matriz_b[0])
+
+    if columnas_a != filas_b:
+        raise ValueError("No se pueden multiplicar: dimensiones no compatibles.")
+
+    matriz_a_expandida, matriz_b_expandida, dimension_comun = rellenar_con_ceros(matriz_a, matriz_b)
+    matriz_resultado_expandida = multiplicar_divide_venceras(matriz_a_expandida, matriz_b_expandida)
+    return recortar_matriz(matriz_resultado_expandida, filas_a, columnas_b)
+
+
+def multiplicar_divide_venceras(matriz_a, matriz_b):
+    dimension = len(matriz_a)
+
+    if dimension == 1:
+        return [[matriz_a[0][0] * matriz_b[0][0]]]
+
+    # Dividir en submatrices
+    a11, a12, a21, a22 = dividir_matriz_en_4(matriz_a)
+    b11, b12, b21, b22 = dividir_matriz_en_4(matriz_b)
+
+    # Calcular los productos parciales clásicos
+    c11 = sumar_matrices(
+        multiplicar_divide_venceras(a11, b11),
+        multiplicar_divide_venceras(a12, b21)
+    )
+
+    c12 = sumar_matrices(
+        multiplicar_divide_venceras(a11, b12),
+        multiplicar_divide_venceras(a12, b22)
+    )
+
+    c21 = sumar_matrices(
+        multiplicar_divide_venceras(a21, b11),
+        multiplicar_divide_venceras(a22, b21)
+    )
+
+    c22 = sumar_matrices(
+        multiplicar_divide_venceras(a21, b12),
+        multiplicar_divide_venceras(a22, b22)
+    )
+
+    # Combinar submatrices en la matriz final
+    return combinar_submatrices(c11, c12, c21, c22)
+
+matriz_a = [
+    [1, 2],
+    [3, 4]
+]
+
+matriz_b = [
+    [5, 6],
+    [7, 8]
+]
+
+print(multiplicar_matrices_por_bloques(matriz_a, matriz_b))  # Resultado esperado: [[19, 22], [43, 50]]
+
+matriz_a = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8]
+]
+
+matriz_b = [
+    [1, 0],
+    [0, 1],
+    [1, 0],
+    [0, 1]
+]
+
+print(multiplicar_matrices_por_bloques(matriz_a, matriz_b))  # Resultado esperado: [[4, 6], [12, 14]]
+
+matriz_a = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12]
+]
+
+matriz_b = [
+    [1, 0],
+    [0, 1],
+    [1, 0],
+    [0, 1]
+]
+
+print(multiplicar_matrices_por_bloques(matriz_a, matriz_b))  # Resultado esperado: [[4, 6], [12, 14], [20, 22]]
