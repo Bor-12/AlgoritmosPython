@@ -60,7 +60,7 @@ def capturar_datos():
 
     lista_itinerarios = []
     for _ in range(numero_itinerarios):
-        numero_paises = int(input())
+        numero_paises = int(input()) 
         linea = input().split()
         lista_itinerario = []
         for j in range(0, len(linea), 2):

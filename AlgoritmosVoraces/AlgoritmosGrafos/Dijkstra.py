@@ -39,4 +39,45 @@ grafo = [
 ]
 
 print(dijkstra(grafo, inicio=0))
+def dijkstra_2(grafo, inicio):
+    n = len(grafo)
+    distancia = [float('inf')] * n
+    predecesores = [-1] * n
+    visitados = [False] * n
+
+    distancia[inicio] = 0
+
+    for _ in range(n):
+        # Buscar el nodo no visitado con menor distancia
+        nodo_actual = -1
+        min_distancia = float('inf')
+        for i in range(n):
+            if not visitados[i] and distancia[i] < min_distancia:
+                min_distancia = distancia[i]
+                nodo_actual = i
+
+        if nodo_actual == -1:
+            break  # No hay más nodos alcanzables
+
+        visitados[nodo_actual] = True
+
+        for vecino, peso in grafo[nodo_actual]:
+            nueva_distancia = distancia[nodo_actual] + peso
+            if nueva_distancia < distancia[vecino]:
+                distancia[vecino] = nueva_distancia
+                predecesores[vecino] = nodo_actual
+
+    return distancia, predecesores
+
+
+grafo = [
+    [(1, 10), (2, 3)],
+    [(2, 1), (3, 2)],
+    [(1, 4), (3, 8), (4, 2)],
+    [(4, 7)],
+    [(3, 9)]
+]
+
+print(dijkstra_2(grafo, inicio=0))
+
 
