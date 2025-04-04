@@ -107,7 +107,6 @@ def sobreviviendo():
 
 
     conjunto_disjunto = [-1] * numero_de_concursantes
-    solucion = []
     esfuerzo_por_concursante = [0] * numero_de_concursantes
     esfuerzo_total = 0
     aristas_usadas = 0
