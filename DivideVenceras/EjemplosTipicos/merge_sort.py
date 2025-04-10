@@ -16,11 +16,13 @@ def merge_sort(lista):
         while i < len(parte_izquierda_ordenada):
             lista[k] = parte_izquierda_ordenada[i]
             i += 1
+            k += 1
         while j < len(parte_derecha_ordenada):
             lista[k] = parte_derecha_ordenada[j]
             j += 1
+            k += 1
     return lista
-lista = [5, 2, 9, 1, 7, 6]
+lista = [5, 2, 2, 9, 1, 7, 6]
 ordenada = merge_sort(lista)
 print(ordenada)
 

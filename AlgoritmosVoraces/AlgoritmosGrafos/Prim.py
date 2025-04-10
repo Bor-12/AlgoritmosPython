@@ -1,5 +1,8 @@
 from queue import PriorityQueue
 
+from typing import List, Tuple, Union
+# El algoritmo de Prim construye un árbol de expansión mínima partiendo de un nodo,
+# añadiendo siempre la arista más corta que conecte un nodo del árbol con uno que aún no está en él.
 def prim(lista_de_aristas, raiz, n):
     pq = PriorityQueue()
     visitados = [False] * n
@@ -42,7 +45,9 @@ lista_aristas = [
     (2, 1, 4)
 ]
 
+
 sol = prim(lista_aristas, raiz=0, n=7)
+print(sol)
 
 print("Árbol de Expansión Mínima (MST) - Algoritmo de Prim:")
 for peso, origen, destino in sol:

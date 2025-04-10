@@ -12,6 +12,7 @@ def suma_subconjuntos(numeros, target):
             solucion_actual.pop()
     backtrack(0,[],0)
     return soluciones
+
 #otra forma de hacerlo
 def suma_subconjuntos_por_resta(numeros, target):
     soluciones = []

@@ -1,6 +1,9 @@
 from queue import PriorityQueue
 from typing import List, Tuple
 
+
+
+#El dijkstra trata de conseguir la distancia mínima de un nodo a todos los demás
 def dijkstra(grafo: List[List[Tuple[int, int]]], inicio: int) -> Tuple[List[float], List[int]]:
     n = len(grafo)
     distancia = [float('inf')] * n
@@ -38,7 +41,12 @@ grafo = [
     [(3, 9)]
 ]
 
-print(dijkstra(grafo, inicio=0))
+distancias, predecesores = dijkstra(grafo, inicio=0)
+
+print("Conexiones del árbol de caminos mínimos:")
+for nodo, predecesor in enumerate(predecesores):
+    if predecesor != -1:
+        print(f"El nodo {predecesor} está conectado con el nodo {nodo}")
 def dijkstra_2(grafo, inicio):
     n = len(grafo)
     distancia = [float('inf')] * n
@@ -79,5 +87,4 @@ grafo = [
 ]
 
 print(dijkstra_2(grafo, inicio=0))
-
 

@@ -8,6 +8,7 @@ def find(conjunto_disjunto: List[int], nodo: int) -> int:
         indice = conjunto_disjunto[indice]
 
     actual = nodo
+
     while conjunto_disjunto[actual] >= 0:
         padre = conjunto_disjunto[actual]
         conjunto_disjunto[actual] = indice
@@ -31,7 +32,8 @@ def union(conjunto_disjunto: List[int], raiz1: int, raiz2: int) -> int:
         conjunto_disjunto[raiz1] -= 1
         return raiz1
 
-
+#El algoritmo de Kruskal construye un árbol de expansión mínima seleccionando las aristas más cortas del grafo,
+# siempre que no formen ciclos, y uniendo componentes hasta conectar todos los nodos.
 def kruskal(lista_de_aristas: List[Tuple[int, int, float]], n: int) -> Union[Tuple[int, List[Tuple[int, int, float]]], None]:
     pq = PriorityQueue()
 
@@ -51,14 +53,15 @@ def kruskal(lista_de_aristas: List[Tuple[int, int, float]], n: int) -> Union[Tup
             _ = union(conjunto_disjunto, x, y)
 
     if len(sol) == n - 1:
-        return n, sol
+        return sol
     else:
         return None
 
-n0 = 5
+n = 5
 lista_de_aristas = [
-    (0, 1, 1.), (1, 0, 1.), (1, 2, 1.), (1, 3, 1.), (1, 4, 2.),
-    (2, 1, 1.), (2, 3, 2.), (2, 4, 1.), (3, 1, 1.), (3, 2, 2.),
-    (3, 4, 1.), (4, 2, 1.), (4, 3, 1.), (4, 1, 2.)
+    (0, 1, 1), (1, 0, 1), (1, 2, 1), (1, 3, 1), (1, 4, 2),
+    (2, 1, 1), (2, 3, 2), (2, 4, 1), (3, 1, 1), (3, 2, 2),
+    (3, 4, 1), (4, 2, 1), (4, 3, 1), (4, 1, 2)
 ]
-print(kruskal(lista_de_aristas, n0))
+
+print(kruskal(lista_de_aristas, n))

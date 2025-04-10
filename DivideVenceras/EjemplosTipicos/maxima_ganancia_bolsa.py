@@ -29,4 +29,4 @@ def maximo_subarray(array):
     return resolver(array, 0, len(array) - 1)
 
 arr = [-3, 1, -8, 12, -2, 5, -6]
-print("Máxima suma de lista:", maximo_subarray(arr))  # Debería imprimir 15
+print("Máxima suma de lista:", maximo_subarray(arr))  # 15
