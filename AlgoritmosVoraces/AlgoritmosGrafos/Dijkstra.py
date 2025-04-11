@@ -42,7 +42,7 @@ grafo = [
 ]
 
 distancias, predecesores = dijkstra(grafo, inicio=0)
-
+print(distancias, predecesores)
 print("Conexiones del árbol de caminos mínimos:")
 for nodo, predecesor in enumerate(predecesores):
     if predecesor != -1:
