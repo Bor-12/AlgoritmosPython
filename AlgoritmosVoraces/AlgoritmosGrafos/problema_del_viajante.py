@@ -62,3 +62,46 @@ circuito = tsp_voraz(matriz_distancias)
 print("Circuito recorrido:", circuito)
 longitud_total = calcular_longitud_circuito(circuito, matriz_distancias)
 print("Longitud total del circuito:", longitud_total)
+
+
+
+def calcular_longitud_circuito(circuito: List[int], matriz_distancias: List[List[int]]) -> int:
+    longitud_total = 0
+    for i in range(len(circuito) - 1):
+        origen = circuito[i]
+        destino = circuito[i + 1]
+        longitud_total += matriz_distancias[origen][destino]
+    return longitud_total
+
+def tsp_voraz(matriz_distancias: List[List[int]], ciudad_inicial: int = 0) -> List[int]:
+    num_ciudades = len(matriz_distancias)
+    circuito = [ciudad_inicial]
+    visitadas = set(circuito)
+
+    while len(circuito) < num_ciudades:
+        ciudad_actual = circuito[-1]
+        distancias = []
+
+        for ciudad in range(num_ciudades):
+            if ciudad not in visitadas:
+                distancia = matriz_distancias[ciudad_actual][ciudad]
+                distancias.append((ciudad, distancia))
+
+        ciudad_mas_cercana = min(distancias, key=lambda x: x[1])[0]
+        circuito.append(ciudad_mas_cercana)
+        visitadas.add(ciudad_mas_cercana)
+    circuito.append(ciudad_inicial)
+    return circuito
+
+
+matriz_distancias = [
+    [0, 624, 995, 350],
+    [624, 0, 506, 357],
+    [995, 506, 0, 653],
+    [350, 357, 653, 0]
+]
+
+circuito = tsp_voraz(matriz_distancias)
+print("Circuito recorrido:", circuito)
+longitud_total = calcular_longitud_circuito(circuito, matriz_distancias)
+print("Longitud total del circuito:", longitud_total)
