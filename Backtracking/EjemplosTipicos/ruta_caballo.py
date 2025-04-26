@@ -13,25 +13,26 @@ def imprimir_matriz(matriz):
     for i in range(n):
         for j in range(n):
             print(" %5d" % (matriz[i][j]),end='')
+        print()
 
 def ruta_caballo_recursivo(i, fila_actual, columna_actual, solucion, incremento):
-    if i > len(solucion):
+    if i > len(solucion) ** 2:
         return True
     else:
         solucion_encontrada = False
         k = 0
         while not solucion_encontrada and k < len(incremento):
+            nueva_fila = fila_actual + incremento[k][0]
+            nueva_columna = columna_actual + incremento[k][1]
+            if nueva_fila >= 0 and nueva_columna >= 0 and \
+                nueva_fila < len(solucion) and nueva_columna <len(solucion) \
+                    and solucion[nueva_fila][nueva_columna] == 0:
 
-            fila_actual +=  incremento[k][0]
-            columna_actual += incremento[k][1]
-            if fila_actual >= 0 and columna_actual >= 0 and \
-                fila_actual < len(solucion) and columna_actual < len(solucion) and \
-                    solucion[fila_actual][columna_actual] == 0:
-                solucion[fila_actual][columna_actual] = i
-                solucion_encontrada = ruta_caballo_recursivo(i + 1,fila_actual, columna_actual, solucion, incremento)
+                solucion[nueva_fila][nueva_columna] = i
+                solucion_encontrada = ruta_caballo_recursivo(i + 1,nueva_fila, nueva_columna, solucion, incremento)
                 if not solucion_encontrada:
-                    solucion_encontrada[fila_actual][columna_actual] = 0
+                    solucion[nueva_fila][nueva_columna] = 0
             k += 1
-            return solucion_encontrada
+        return solucion_encontrada
 
 ruta_caballo(5, 0, 0)
