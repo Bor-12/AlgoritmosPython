@@ -39,3 +39,23 @@ def generar_permutaciones_recursivo2(i, libres, sol, elementos):
 print()
 elementos = ["a", "b", "c"]
 generar_permutaciones(elementos)
+def generar_permutaciones_con_repeticion(elementos, repeticiones):
+    total = sum(repeticiones)  # longitud real de la solución
+    sol = [None] * total
+    generar_permutaciones_con_repeticion_recursivo(0, sol, elementos, repeticiones)
+
+def generar_permutaciones_con_repeticion_recursivo(i, sol, elementos, libres):
+    if i == len(sol):
+        imprimir_subconjunto(sol, i, elementos)
+    else:
+        for k in range(len(elementos)):
+            if libres[k] > 0:
+                sol[i] = k
+                libres[k] -= 1
+                generar_permutaciones_con_repeticion_recursivo(i + 1, sol, elementos, libres)
+                libres[k] += 1
+
+print("Con repeticion:")
+elementos = ["a", "b", "c"]
+repeticiones = [2, 1, 1]
+generar_permutaciones_con_repeticion(elementos, repeticiones)

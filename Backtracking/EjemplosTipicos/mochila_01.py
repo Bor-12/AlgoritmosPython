@@ -4,6 +4,7 @@ def mochila_01(peso, valor, capacidad):
     sol_optima = [0] * len(peso)
     valor_total  = mochila_01_recursivo(0, capacidad, 0, sum(valor),solucion, sol_optima, -1, peso, valor)
     return valor_total , sol_optima
+
 def mochila_01_recursivo(i, capacidad_actual, valor_actual, valor_maximo,solucion_parcial, solucion_optima, valor_optimo, peso, valor):
     if i == len(solucion_parcial):
         if valor_actual > valor_optimo:
