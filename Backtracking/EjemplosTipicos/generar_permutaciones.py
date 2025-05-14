@@ -1,9 +1,5 @@
 
 
-
-def generar_permutaciones(elementos):
-    sol = [None] * len(elementos)
-    generar_permutaciones_recursivo(0, sol, elementos)
 def imprimir_subconjunto(sol, n_elementos, elementos):
     print('{', end='')
     for i in range(0, n_elementos - 1):
@@ -11,6 +7,11 @@ def imprimir_subconjunto(sol, n_elementos, elementos):
     if n_elementos > 0:
         print(elementos[sol[n_elementos - 1]], sep='', end='')
     print('}')
+
+def generar_permutaciones(elementos):
+    sol = [None] * len(elementos)
+    generar_permutaciones_recursivo(0, sol, elementos)
+
 def generar_permutaciones_recursivo(i, sol, elementos):
 
     if i == len(elementos):
