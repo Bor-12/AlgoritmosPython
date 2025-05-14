@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DivideVenceras/EjemplosTipicos/merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/DivideVenceras/EjemplosTipicos/merge_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DivideVenceras/Ejercicios/contar_menores_derecha.py" beforeDir="false" afterPath="$PROJECT_DIR$/DivideVenceras/Ejercicios/contar_menores_derecha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DivideVenceras/Ejercicios/quick_select.py" beforeDir="false" afterPath="$PROJECT_DIR$/DivideVenceras/Ejercicios/quick_select.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
     "Python.clear_souls.executor": "Run",
     "Python.combinaciones_enteros.executor": "Run",
     "Python.conbinaciones_binarias.executor": "Run",
-    "Python.contar_menores_derecha.executor": "Debug",
+    "Python.contar_menores_derecha.executor": "Run",
     "Python.decimal_a_binario.executor": "Run",
     "Python.dfs.executor": "Run",
     "Python.dos_mochilas.executor": "Run",
@@ -193,7 +196,7 @@
       <workItem from="1745681539111" duration="159000" />
       <workItem from="1746777787542" duration="1081000" />
       <workItem from="1747209790611" duration="10229000" />
-      <workItem from="1747237003696" duration="4177000" />
+      <workItem from="1747237003696" duration="5386000" />
     </task>
     <servers />
   </component>
@@ -229,14 +232,9 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aa.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/DivideVenceras/Ejercicios/contar_menores_derecha.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="33" />
+          <line>40</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -306,7 +304,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$palindromo_mas_grande.coverage" NAME="palindromo_mas_grande Coverage Results" MODIFIED="1742722986465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$exponenciacion_rapida.coverage" NAME="exponenciacion_rapida Coverage Results" MODIFIED="1743180838858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Kruskal.coverage" NAME="Kruskal Coverage Results" MODIFIED="1744309602806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
-    <SUITE FILE_PATH="coverage/AlgoritmosPython$contar_menores_derecha.coverage" NAME="contar_menores_derecha Coverage Results" MODIFIED="1747241031730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Ejercicios" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$contar_menores_derecha.coverage" NAME="contar_menores_derecha Coverage Results" MODIFIED="1747241544171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Luces.coverage" NAME="Luces Coverage Results" MODIFIED="1742037472456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$N_reinas.coverage" NAME="N-reinas Coverage Results" MODIFIED="1745516884284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1744298973901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/EjemplosTipicos" />

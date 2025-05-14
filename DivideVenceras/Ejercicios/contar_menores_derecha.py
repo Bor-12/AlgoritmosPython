@@ -24,9 +24,9 @@ def contar_menores_derecha(lista):
     Para cada número en la lista, cuenta cuántos números menores hay a su derecha.
     Devuelve una lista con esos conteos.
     """
-    # Asociamos cada valor con su índice original para poder actualizar el resultado final
-    lista_con_indices = list(enumerate(lista))  # [(0, 5), (1, 2), (2, 6), (3, 1)]
-    conteo_menores = [0] * len(lista)           # Resultado final: mismo largo que la lista original
+
+    lista_con_indices = list(enumerate(lista))
+    conteo_menores = [0] * len(lista)
 
     def merge_sort(sublista):
         if len(sublista) <= 1:
@@ -40,7 +40,6 @@ def contar_menores_derecha(lista):
         puntero_izq = puntero_der = 0
         menores_a_la_derecha = 0
 
-        # Fusionamos las mitades ordenadas mientras contamos los menores que pasan delante
         while puntero_izq < len(mitad_izquierda) and puntero_der < len(mitad_derecha):
             indice_derecha, valor_derecha = mitad_derecha[puntero_der]
             indice_izquierda, valor_izquierda = mitad_izquierda[puntero_izq]
@@ -63,14 +62,13 @@ def contar_menores_derecha(lista):
             mezcla_ordenada.append((indice_izquierda, valor_izquierda))
             puntero_izq += 1
 
-        # Añadimos lo que quede de la derecha
+
         while puntero_der < len(mitad_derecha):
             mezcla_ordenada.append(mitad_derecha[puntero_der])
             puntero_der += 1
 
         return mezcla_ordenada
 
-    # Lanzamos el proceso de ordenación y conteo
     lista_con_indices_ordenada = merge_sort(lista_con_indices)
     return conteo_menores, lista_con_indices_ordenada
 

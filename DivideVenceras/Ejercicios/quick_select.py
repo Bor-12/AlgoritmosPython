@@ -39,7 +39,6 @@ def particion(lista, izquierda, derecha):
     return j
 
 def quick_select(lista, k):
-
     return quick_select_recursivo(lista, k - 1, 0, len(lista) - 1)
 def quick_select_recursivo(lista, k  , izquierda, derecha):
     if izquierda == derecha:
