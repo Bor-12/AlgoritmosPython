@@ -66,4 +66,17 @@ def subconjuntos_recursivo3(i, solucion, elementos):
         subconjuntos_recursivo3(i + 1, solucion, elementos)
 print()
 subconjunto3(lista)
-
+def generar_subconjuntos_longitud(elementos, longitud):
+    #Habrá que parar el arbol recursivo cuando llegue a la longitud
+    solucion = [None] * longitud
+    generar_subconjuntos_longitud_recursivo(0,-1,solucion,elementos, longitud)
+def generar_subconjuntos_longitud_recursivo(i, j,solucion_parcial, elementos, longitud):
+    if i == longitud:
+        mostrar_subconjunto2(solucion_parcial, longitud, elementos)
+    else:
+        for k in range(j +1, len(elementos)):
+            solucion_parcial[i] = k
+            generar_subconjuntos_longitud_recursivo(i + 1, k , solucion_parcial, elementos, longitud)
+print()
+lista = ["a", "b", "c", "d", "e"]
+generar_subconjuntos_longitud(lista, 2)
