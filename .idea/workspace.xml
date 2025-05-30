@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DivideVenceras/EjemplosTipicos/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/DivideVenceras/EjemplosTipicos/quick_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/add_tow_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/add_two_numbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +212,7 @@
       <workItem from="1747496582052" duration="7040000" />
       <workItem from="1747578786777" duration="10538000" />
       <workItem from="1747641813164" duration="2031000" />
-      <workItem from="1748592565900" duration="3069000" />
+      <workItem from="1748592565900" duration="4128000" />
     </task>
     <servers />
   </component>
