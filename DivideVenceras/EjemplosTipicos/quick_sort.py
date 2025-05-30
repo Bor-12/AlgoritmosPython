@@ -16,12 +16,13 @@ def particion(lista, izquierda, derecha):
 def quicksort(lista):
     quicksort_recursivo(lista, 0, len(lista) - 1)
 def quicksort_recursivo(lista, izquierda, derecha):
-    if izquierda >= derecha:
+    if derecha < izquierda:
         return
-    if izquierda < derecha:
+    else:
         mitad = particion(lista, izquierda, derecha)
         quicksort_recursivo(lista, izquierda, mitad -1)
         quicksort_recursivo(lista, mitad + 1, derecha)
 lista = [5, 2, 9, 1, 7, 6]
 quicksort(lista)
 print(lista)
+
