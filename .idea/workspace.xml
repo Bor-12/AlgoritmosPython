@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/add_tow_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/add_two_numbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,118 +30,120 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.A.executor": "Run",
-    "Python.AlfombraRoja.executor": "Run",
-    "Python.CadenasBinarias.executor": "Run",
-    "Python.CapitanCatSparrow.executor": "Run",
-    "Python.Dijkstra.executor": "Run",
-    "Python.Fibonacci.executor": "Run",
-    "Python.Kruskal.executor": "Run",
-    "Python.Luces.executor": "Run",
-    "Python.Mochila.executor": "Run",
-    "Python.MochilaEnteros.executor": "Run",
-    "Python.N-reinas.executor": "Run",
-    "Python.N_reinas.executor": "Run",
-    "Python.N_torres.executor": "Run",
-    "Python.PlanificacionPlazoFijo.executor": "Run",
-    "Python.Prim.executor": "Run",
-    "Python.ProblemaDelViajante.executor": "Run",
-    "Python.SecondDates.executor": "Run",
-    "Python.SubirEscaleras.executor": "Run",
-    "Python.Two_sum.executor": "Run",
-    "Python.Velada.executor": "Run",
-    "Python.VueltaAlMundo.executor": "Run",
-    "Python.a.executor": "Run",
-    "Python.aa.executor": "Debug",
-    "Python.bfs.executor": "Run",
-    "Python.buscar_pico_array.executor": "Run",
-    "Python.busqueda_binaria.executor": "Run",
-    "Python.busqueda_binaria_recursivo.executor": "Run",
-    "Python.capitan_cat_sparrow.executor": "Run",
-    "Python.clear_souls.executor": "Run",
-    "Python.combinaciones_enteros.executor": "Run",
-    "Python.conbinaciones_binarias.executor": "Run",
-    "Python.contar_menores_derecha.executor": "Run",
-    "Python.decimal_a_binario.executor": "Run",
-    "Python.dfs.executor": "Run",
-    "Python.diferencia_par_posiciones.executor": "Run",
-    "Python.dijkstra.executor": "Run",
-    "Python.dos_mochilas.executor": "Run",
-    "Python.elemento_mayoritario.executor": "Run",
-    "Python.es_dificil_copiar.executor": "Debug",
-    "Python.es_palindromo.executor": "Run",
-    "Python.exponenciacion_rapida.executor": "Run",
-    "Python.fibo.executor": "Run",
-    "Python.fibonacci_recursivo.executor": "Run",
-    "Python.filtrar_pares_y_impares.executor": "Run",
-    "Python.generar_permutaciones.executor": "Run",
-    "Python.generar_subconjuntos.executor": "Run",
-    "Python.hilo_rojo.executor": "Run",
-    "Python.hola.executor": "Run",
-    "Python.intercalacion_cadenas.executor": "Run",
-    "Python.kruskal.executor": "Debug",
-    "Python.matriz_ordenada.executor": "Run",
-    "Python.maxima_ganancia_bolsa.executor": "Run",
-    "Python.merge_sort.executor": "Run",
-    "Python.mochila.executor": "Run",
-    "Python.mochila_01.executor": "Run",
-    "Python.mochila_enteros.executor": "Run",
-    "Python.monedas.executor": "Run",
-    "Python.mover_ceros_al_final.executor": "Run",
-    "Python.multiplicar_matrices.executor": "Run",
-    "Python.operacion_fracaso.executor": "Run",
-    "Python.organizando_torneo.executor": "Run",
-    "Python.palindromo_mas_grande.executor": "Run",
-    "Python.pares_inversos.executor": "Run",
-    "Python.parse.executor": "Debug",
-    "Python.particiones_numero.executor": "Run",
-    "Python.permutaciones_lista.executor": "Run",
-    "Python.problema_coloreado_grafos.executor": "Run",
-    "Python.problema_del_viajante.executor": "Run",
-    "Python.quick_select.executor": "Run",
-    "Python.quick_sort.executor": "Run",
-    "Python.recorridos_arboles.executor": "Run",
-    "Python.resolver_laberinto.executor": "Run",
-    "Python.ruta_caballo.executor": "Run",
-    "Python.secuencias_validas_parentesis.executor": "Debug",
-    "Python.sobreviviendo.executor": "Run",
-    "Python.subconjuntos_suma_exacta.executor": "Run",
-    "Python.sublista_de_maxima_suma.executor": "Run",
-    "Python.suma_digitos.executor": "Run",
-    "Python.suma_dos_numeros_ordenados.executor": "Run",
-    "Python.suma_menos_primero_ultimo.executor": "Run",
-    "Python.suma_subconjuntos.executor": "Run",
-    "Python.suma_subconjuntos_dp.executor": "Debug",
-    "Python.torres_de_hanoi.executor": "Run",
-    "Python.variaciones_lista.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/AlgoritmosPython/Recursividad/Practicas",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.A.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AlfombraRoja.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CadenasBinarias.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CapitanCatSparrow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dijkstra.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Kruskal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Luces.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mochila.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MochilaEnteros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.N-reinas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.N_reinas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.N_torres.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PlanificacionPlazoFijo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prim.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ProblemaDelViajante.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SecondDates.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SubirEscaleras.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Two_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Velada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.VueltaAlMundo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aa.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.bfs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buscar_pico_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.busqueda_binaria.executor&quot;: &quot;Run&quot;,
+    &quot;Python.busqueda_binaria_recursivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capitan_cat_sparrow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clear_souls.executor&quot;: &quot;Run&quot;,
+    &quot;Python.combinaciones_enteros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conbinaciones_binarias.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contar_menores_derecha.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decimal_a_binario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dfs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diferencia_par_posiciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dijkstra.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dos_mochilas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.elemento_mayoritario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.es_dificil_copiar.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.es_palindromo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exponenciacion_rapida.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fibo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fibonacci_recursivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filtrar_pares_y_impares.executor&quot;: &quot;Run&quot;,
+    &quot;Python.findMedianSortedArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generar_permutaciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generar_subconjuntos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hilo_rojo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hola.executor&quot;: &quot;Run&quot;,
+    &quot;Python.intercalacion_cadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kruskal.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.matriz_ordenada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maxima_ganancia_bolsa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mochila.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mochila_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mochila_enteros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.monedas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mover_ceros_al_final.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multiplicar_matrices.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numero_palindromo.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.operacion_fracaso.executor&quot;: &quot;Run&quot;,
+    &quot;Python.organizando_torneo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.palindromo_mas_grande.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pares_inversos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parse.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.particiones_numero.executor&quot;: &quot;Run&quot;,
+    &quot;Python.permutaciones_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.problema_coloreado_grafos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.problema_del_viajante.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quick_select.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quick_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recorridos_arboles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.resolver_laberinto.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ruta_caballo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.secuencias_validas_parentesis.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.sobreviviendo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.subconjuntos_suma_exacta.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sublista_de_maxima_suma.executor&quot;: &quot;Run&quot;,
+    &quot;Python.suma_digitos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.suma_dos_numeros_ordenados.executor&quot;: &quot;Run&quot;,
+    &quot;Python.suma_menos_primero_ultimo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.suma_subconjuntos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.suma_subconjuntos_dp.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.torres_de_hanoi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.variaciones_lista.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AlgoritmosPython/Recursividad/Practicas&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AlgoritmosPython\Recursividad\Practicas" />
       <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\EjemplosTipicos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AlgoritmosPython\LeetCode\DoblePuntero" />
       <recent name="D:\AlgoritmosPython\LeetCode\TablasHash" />
       <recent name="D:\AlgoritmosPython\Backtracking\EjerciciosExamen" />
       <recent name="D:\AlgoritmosPython\Backtracking\Ejercicios" />
       <recent name="D:\AlgoritmosPython\Backtracking\EjemplosTipicos" />
-      <recent name="D:\AlgoritmosPython\DoblePuntero\EjemplosTipicos" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -212,7 +213,9 @@
       <workItem from="1747496582052" duration="7040000" />
       <workItem from="1747578786777" duration="10538000" />
       <workItem from="1747641813164" duration="2031000" />
-      <workItem from="1748592565900" duration="4128000" />
+      <workItem from="1748592565900" duration="4458000" />
+      <workItem from="1748607012229" duration="4438000" />
+      <workItem from="1748678909568" duration="299000" />
     </task>
     <servers />
   </component>
@@ -257,6 +260,11 @@
           <line>46</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode/DoblePuntero/findMedianSortedArrays.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -274,8 +282,8 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$ruta_caballo.coverage" NAME="ruta_caballo Coverage Results" MODIFIED="1745656047105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$operacion_fracaso.coverage" NAME="operacion_fracaso Coverage Results" MODIFIED="1742657346711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/Practica" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$recorridos_arboles.coverage" NAME="recorridos_arboles Coverage Results" MODIFIED="1743255353565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/EjemplosTipicos" />
-    <SUITE FILE_PATH="coverage/AlgoritmosPython$dijkstra.coverage" NAME="dijkstra Coverage Results" MODIFIED="1747584833766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$N_torres.coverage" NAME="N_torres Coverage Results" MODIFIED="1747334122078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjerciciosExamen" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$dijkstra.coverage" NAME="dijkstra Coverage Results" MODIFIED="1747584833766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$dfs.coverage" NAME="dfs Coverage Results" MODIFIED="1742668081039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$subconjuntos_suma_exacta.coverage" NAME="subconjuntos_suma_exacta Coverage Results" MODIFIED="1745659630195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$permutaciones_lista.coverage" NAME="permutaciones_lista Coverage Results" MODIFIED="1745513889183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjemplosTipicos" />
@@ -320,6 +328,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$suma_digitos.coverage" NAME="suma_digitos Coverage Results" MODIFIED="1743254614539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recursividad/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$kruskal.coverage" NAME="kruskal Coverage Results" MODIFIED="1747214687063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$suma_subconjuntos_dp.coverage" NAME="suma_subconjuntos_dp Coverage Results" MODIFIED="1742718440543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/Ejercicios" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$numero_palindromo.coverage" NAME="numero_palindromo Coverage Results" MODIFIED="1748610714544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/DoblePuntero" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$es_palindromo.coverage" NAME="es_palindromo Coverage Results" MODIFIED="1743108743349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DoblePuntero/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$A.coverage" NAME="A Coverage Results" MODIFIED="1747388787447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$CapitanCatSparrow.coverage" NAME="CapitanCatSparrow Coverage Results" MODIFIED="1742551091708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
@@ -346,6 +355,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$buscar_pico_array.coverage" NAME="buscar_pico_array Coverage Results" MODIFIED="1743185878353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$hola.coverage" NAME="hola Coverage Results" MODIFIED="1745054594823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$aa.coverage" NAME="aa Coverage Results" MODIFIED="1747239920786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$findMedianSortedArrays.coverage" NAME="findMedianSortedArrays Coverage Results" MODIFIED="1748609519524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$SecondDates.coverage" NAME="SecondDates Coverage Results" MODIFIED="1742230446192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$secuencias_validas_parentesis.coverage" NAME="secuencias_validas_parentesis Coverage Results" MODIFIED="1747346212152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjerciciosExamen" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$pares_inversos.coverage" NAME="pares_inversos Coverage Results" MODIFIED="1744056830786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Ejercicios" />
