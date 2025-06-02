@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/reverse_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/reverse_linked_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/SlidingWindow/findMedianSortedArrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DoblePuntero/findMedianSortedArrays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/SlidingWindow/longest_substring_without_repeating_characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DoblePuntero/longest_substring_without_repeating_characters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/SlidingWindow/minimum_window_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DoblePuntero/minimum_window_substring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/SlidingWindow/remove_duplicates_from_sorted_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DoblePuntero/remove_duplicates_from_sorted_array.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +88,10 @@
     "Python.hola.executor": "Run",
     "Python.intercalacion_cadenas.executor": "Run",
     "Python.kruskal.executor": "Debug",
+    "Python.longest_palindromic_substring.executor": "Run",
     "Python.matriz_ordenada.executor": "Run",
     "Python.maxima_ganancia_bolsa.executor": "Run",
+    "Python.maximum_depth_of_binary_tree.executor": "Run",
     "Python.merge_sort.executor": "Run",
     "Python.merge_sorted_array.executor": "Run",
     "Python.minimum_window_substring.executor": "Run",
@@ -144,9 +149,9 @@
       <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\EjemplosTipicos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AlgoritmosPython\LeetCode\SlidingWindow" />
       <recent name="D:\AlgoritmosPython\LeetCode\Arrays" />
       <recent name="D:\AlgoritmosPython\LeetCode\Mates" />
-      <recent name="D:\AlgoritmosPython\LeetCode\SlidingWindow" />
       <recent name="D:\AlgoritmosPython\LeetCode\DoblePuntero" />
       <recent name="D:\AlgoritmosPython\LeetCode\TablasHash" />
     </key>
@@ -224,7 +229,8 @@
       <workItem from="1748785969734" duration="1668000" />
       <workItem from="1748794352376" duration="1929000" />
       <workItem from="1748796426066" duration="85000" />
-      <workItem from="1748852359781" duration="4088000" />
+      <workItem from="1748852359781" duration="4941000" />
+      <workItem from="1748869509999" duration="4897000" />
     </task>
     <servers />
   </component>
@@ -281,7 +287,7 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/SlidingWindow/findMedianSortedArrays.py</url>
+          <url>file://$PROJECT_DIR$/LeetCode/DoblePuntero/findMedianSortedArrays.py</url>
           <line>28</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
@@ -322,6 +328,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$variaciones_lista.coverage" NAME="variaciones_lista Coverage Results" MODIFIED="1747332150490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$capitan_cat_sparrow.coverage" NAME="capitan_cat_sparrow Coverage Results" MODIFIED="1745138499881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$es_dificil_copiar.coverage" NAME="es_dificil_copiar Coverage Results" MODIFIED="1743347878044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/Practica" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$maximum_depth_of_binary_tree.coverage" NAME="maximum_depth_of_binary_tree Coverage Results" MODIFIED="1748871955544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Arboles" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$filtrar_pares_y_impares.coverage" NAME="filtrar_pares_y_impares Coverage Results" MODIFIED="1744309352287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recursividad/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$diferencia_par_posiciones.coverage" NAME="diferencia_par_posiciones Coverage Results" MODIFIED="1747333816331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Prim.coverage" NAME="Prim Coverage Results" MODIFIED="1744304564352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
@@ -342,6 +349,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$mochila_enteros.coverage" NAME="mochila_enteros Coverage Results" MODIFIED="1745659395938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$VueltaAlMundo.coverage" NAME="VueltaAlMundo Coverage Results" MODIFIED="1742398655067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Fibonacci.coverage" NAME="Fibonacci Coverage Results" MODIFIED="1742562982304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$longest_palindromic_substring.coverage" NAME="longest_palindromic_substring Coverage Results" MODIFIED="1748870653151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$clear_souls.coverage" NAME="clear_souls Coverage Results" MODIFIED="1743785335907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$suma_dos_numeros_ordenados.coverage" NAME="suma_dos_numeros_ordenados Coverage Results" MODIFIED="1743110429668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DoblePuntero/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$merge_sorted_array.coverage" NAME="merge_sorted_array Coverage Results" MODIFIED="1748853519441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
