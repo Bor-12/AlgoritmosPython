@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/SlidingWindow/numero_palindromo.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Mates/numero_palindromo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +88,7 @@
     "Python.matriz_ordenada.executor": "Run",
     "Python.maxima_ganancia_bolsa.executor": "Run",
     "Python.merge_sort.executor": "Run",
+    "Python.merge_sorted_array.executor": "Run",
     "Python.minimum_window_substring.executor": "Run",
     "Python.mochila.executor": "Run",
     "Python.mochila_01.executor": "Run",
@@ -142,11 +144,11 @@
       <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\EjemplosTipicos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AlgoritmosPython\LeetCode\Arrays" />
+      <recent name="D:\AlgoritmosPython\LeetCode\Mates" />
       <recent name="D:\AlgoritmosPython\LeetCode\SlidingWindow" />
       <recent name="D:\AlgoritmosPython\LeetCode\DoblePuntero" />
       <recent name="D:\AlgoritmosPython\LeetCode\TablasHash" />
-      <recent name="D:\AlgoritmosPython\Backtracking\EjerciciosExamen" />
-      <recent name="D:\AlgoritmosPython\Backtracking\Ejercicios" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -221,6 +223,8 @@
       <workItem from="1748678909568" duration="1267000" />
       <workItem from="1748785969734" duration="1668000" />
       <workItem from="1748794352376" duration="1929000" />
+      <workItem from="1748796426066" duration="85000" />
+      <workItem from="1748852359781" duration="2178000" />
     </task>
     <servers />
   </component>
@@ -340,6 +344,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Fibonacci.coverage" NAME="Fibonacci Coverage Results" MODIFIED="1742562982304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$clear_souls.coverage" NAME="clear_souls Coverage Results" MODIFIED="1743785335907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$suma_dos_numeros_ordenados.coverage" NAME="suma_dos_numeros_ordenados Coverage Results" MODIFIED="1743110429668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DoblePuntero/EjemplosTipicos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$merge_sorted_array.coverage" NAME="merge_sorted_array Coverage Results" MODIFIED="1748853519441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$sublista_de_maxima_suma.coverage" NAME="sublista_de_maxima_suma Coverage Results" MODIFIED="1744307541589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$matriz_ordenada.coverage" NAME="matriz_ordenada Coverage Results" MODIFIED="1744308752027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$fibonacci_recursivo.coverage" NAME="fibonacci_recursivo Coverage Results" MODIFIED="1743253299592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recursividad/EjemplosTipicos" />
