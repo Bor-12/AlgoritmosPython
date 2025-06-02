@@ -1,4 +1,4 @@
-#Problema 2
+#Problema 206
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val

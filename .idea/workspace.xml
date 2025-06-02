@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/SlidingWindow/numero_palindromo.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Mates/numero_palindromo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/reverse_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/reverse_linked_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +224,7 @@
       <workItem from="1748785969734" duration="1668000" />
       <workItem from="1748794352376" duration="1929000" />
       <workItem from="1748796426066" duration="85000" />
-      <workItem from="1748852359781" duration="2178000" />
+      <workItem from="1748852359781" duration="4088000" />
     </task>
     <servers />
   </component>
