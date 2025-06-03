@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/SlidingWindow/findMedianSortedArrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DoblePuntero/findMedianSortedArrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/SlidingWindow/longest_substring_without_repeating_characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DoblePuntero/longest_substring_without_repeating_characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/SlidingWindow/minimum_window_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DoblePuntero/minimum_window_substring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/SlidingWindow/remove_duplicates_from_sorted_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DoblePuntero/remove_duplicates_from_sorted_array.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +72,7 @@
     "Python.elemento_mayoritario.executor": "Run",
     "Python.es_dificil_copiar.executor": "Debug",
     "Python.es_palindromo.executor": "Run",
+    "Python.evaluate_reverse_polish_notation.executor": "Run",
     "Python.exponenciacion_rapida.executor": "Run",
     "Python.fibo.executor": "Run",
     "Python.fibonacci_recursivo.executor": "Run",
@@ -230,7 +227,7 @@
       <workItem from="1748794352376" duration="1929000" />
       <workItem from="1748796426066" duration="85000" />
       <workItem from="1748852359781" duration="4941000" />
-      <workItem from="1748869509999" duration="4897000" />
+      <workItem from="1748869509999" duration="10679000" />
     </task>
     <servers />
   </component>
@@ -346,6 +343,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$mochila_01.coverage" NAME="mochila_01 Coverage Results" MODIFIED="1747580103014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$decimal_a_binario.coverage" NAME="decimal_a_binario Coverage Results" MODIFIED="1743107879182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recursividad/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$elemento_mayoritario.coverage" NAME="elemento_mayoritario Coverage Results" MODIFIED="1743253004865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Ejercicios" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$evaluate_reverse_polish_notation.coverage" NAME="evaluate_reverse_polish_notation Coverage Results" MODIFIED="1748880524151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Pilas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$mochila_enteros.coverage" NAME="mochila_enteros Coverage Results" MODIFIED="1745659395938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$VueltaAlMundo.coverage" NAME="VueltaAlMundo Coverage Results" MODIFIED="1742398655067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Fibonacci.coverage" NAME="Fibonacci Coverage Results" MODIFIED="1742562982304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
