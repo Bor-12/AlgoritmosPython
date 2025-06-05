@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LeetCode/DoblePuntero/search_a_2D_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/copy_list_whith_random_pointer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/reverse_nodes_in_k_group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Backtracking/permute.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Backtracking/permutations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,7 @@
     "Python.combinaciones_enteros.executor": "Run",
     "Python.conbinaciones_binarias.executor": "Run",
     "Python.contar_menores_derecha.executor": "Run",
+    "Python.copy_list_whith_random_pointer.executor": "Debug",
     "Python.decimal_a_binario.executor": "Run",
     "Python.design_linked_list.executor": "Run",
     "Python.dfs.executor": "Run",
@@ -111,7 +114,7 @@
     "Python.particiones_numero.executor": "Run",
     "Python.permutaciones.executor": "Run",
     "Python.permutaciones_lista.executor": "Run",
-    "Python.permutations_II.executor": "Debug",
+    "Python.permutations_II.executor": "Run",
     "Python.permute.executor": "Run",
     "Python.problema_coloreado_grafos.executor": "Run",
     "Python.problema_del_viajante.executor": "Run",
@@ -121,7 +124,9 @@
     "Python.remove_duplicates_from_sorted_array.executor": "Run",
     "Python.resolver_laberinto.executor": "Run",
     "Python.reverse_integer.executor": "Run",
+    "Python.reverse_nodes_in_k_group.executor": "Run",
     "Python.ruta_caballo.executor": "Run",
+    "Python.search_a_2D_matrix.executor": "Run",
     "Python.secuencias_validas_parentesis.executor": "Debug",
     "Python.sobreviviendo.executor": "Run",
     "Python.subconjuntos_suma_exacta.executor": "Run",
@@ -154,11 +159,11 @@
       <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\EjemplosTipicos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AlgoritmosPython\LeetCode\DoblePuntero" />
       <recent name="D:\AlgoritmosPython\LeetCode\Backtracking" />
       <recent name="D:\AlgoritmosPython\LeetCode\SlidingWindow" />
       <recent name="D:\AlgoritmosPython\LeetCode\Arrays" />
       <recent name="D:\AlgoritmosPython\LeetCode\Mates" />
-      <recent name="D:\AlgoritmosPython\LeetCode\DoblePuntero" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -238,7 +243,9 @@
       <workItem from="1748869509999" duration="10679000" />
       <workItem from="1748936624324" duration="10375000" />
       <workItem from="1748947361241" duration="2669000" />
-      <workItem from="1749029141883" duration="3946000" />
+      <workItem from="1749029141883" duration="5081000" />
+      <workItem from="1749043960723" duration="2857000" />
+      <workItem from="1749111502708" duration="5184000" />
     </task>
     <servers />
   </component>
@@ -299,11 +306,6 @@
           <line>28</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LeetCode/Backtracking/permutations_II.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -324,6 +326,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$suma_subconjuntos.coverage" NAME="suma_subconjuntos Coverage Results" MODIFIED="1747499409331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$MochilaEnteros.coverage" NAME="MochilaEnteros Coverage Results" MODIFIED="1742585263233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1747388815180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/EjemplosTipicos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$copy_list_whith_random_pointer.coverage" NAME="copy_list_whith_random_pointer Coverage Results" MODIFIED="1749044810803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/ListasEnlazadas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$remove_duplicates_from_sorted_array.coverage" NAME="remove_duplicates_from_sorted_array Coverage Results" MODIFIED="1748795221586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$ProblemaDelViajante.coverage" NAME="ProblemaDelViajante Coverage Results" MODIFIED="1745055554517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$quick_select.coverage" NAME="quick_select Coverage Results" MODIFIED="1744054360479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Ejercicios" />
@@ -351,7 +354,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$busqueda_binaria.coverage" NAME="busqueda_binaria Coverage Results" MODIFIED="1742640364831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/BusquedasLista" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$combinaciones_enteros.coverage" NAME="combinaciones_enteros Coverage Results" MODIFIED="1747329831049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$expresion_add_operators.coverage" NAME="expresion_add_operators Coverage Results" MODIFIED="1748948030341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Backtracking" />
-    <SUITE FILE_PATH="coverage/AlgoritmosPython$permutations_II.coverage" NAME="permutations_II Coverage Results" MODIFIED="1749033102714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Backtracking" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$permutations_II.coverage" NAME="permutations_II Coverage Results" MODIFIED="1749033155083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Backtracking" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$problema_del_viajante.coverage" NAME="problema_del_viajante Coverage Results" MODIFIED="1747244962861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$SubirEscaleras.coverage" NAME="SubirEscaleras Coverage Results" MODIFIED="1742585926912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$palindromo_mas_grande.coverage" NAME="palindromo_mas_grande Coverage Results" MODIFIED="1742722986465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/Ejercicios" />
@@ -361,6 +364,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$minimum_window_substring.coverage" NAME="minimum_window_substring Coverage Results" MODIFIED="1748787486661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/SlidingWindow" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Luces.coverage" NAME="Luces Coverage Results" MODIFIED="1742037472456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1747242603463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/EjemplosTipicos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$search_a_2D_matrix.coverage" NAME="search_a_2D_matrix Coverage Results" MODIFIED="1749114740575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$hilo_rojo.coverage" NAME="hilo_rojo Coverage Results" MODIFIED="1744385778581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$multiplicar_matrices.coverage" NAME="multiplicar_matrices Coverage Results" MODIFIED="1743252006543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$conbinaciones_binarias.coverage" NAME="conbinaciones_binarias Coverage Results" MODIFIED="1747328061655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/Ejercicios" />
@@ -368,6 +372,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$buscar_pico_array.coverage" NAME="buscar_pico_array Coverage Results" MODIFIED="1743185878353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$findMedianSortedArrays.coverage" NAME="findMedianSortedArrays Coverage Results" MODIFIED="1748679247443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/DoblePuntero" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$secuencias_validas_parentesis.coverage" NAME="secuencias_validas_parentesis Coverage Results" MODIFIED="1747346212152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjerciciosExamen" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$reverse_nodes_in_k_group.coverage" NAME="reverse_nodes_in_k_group Coverage Results" MODIFIED="1749117003094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/ListasEnlazadas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$operacion_fracaso.coverage" NAME="operacion_fracaso Coverage Results" MODIFIED="1742657346711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/Practica" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$recorridos_arboles.coverage" NAME="recorridos_arboles Coverage Results" MODIFIED="1743255353565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$dijkstra.coverage" NAME="dijkstra Coverage Results" MODIFIED="1747584833766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
