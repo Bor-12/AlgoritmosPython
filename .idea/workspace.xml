@@ -32,6 +32,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.3sum.executor": "Run",
+    "Python.3sum_closest.executor": "Run",
     "Python.A.executor": "Run",
     "Python.AlfombraRoja.executor": "Run",
     "Python.CadenasBinarias.executor": "Run",
@@ -137,6 +139,7 @@
     "Python.suma_subconjuntos.executor": "Run",
     "Python.suma_subconjuntos_dp.executor": "Debug",
     "Python.torres_de_hanoi.executor": "Run",
+    "Python.two_sum_II_input_array_is_sorted.executor": "Run",
     "Python.variaciones_lista.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -247,7 +250,8 @@
       <workItem from="1749043960723" duration="2857000" />
       <workItem from="1749111502708" duration="5744000" />
       <workItem from="1749197672161" duration="2489000" />
-      <workItem from="1749229444394" duration="2042000" />
+      <workItem from="1749229444394" duration="2236000" />
+      <workItem from="1749283002810" duration="3505000" />
     </task>
     <servers />
   </component>
@@ -308,6 +312,16 @@
           <line>28</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode/3sum.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode/3sum_closest.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -333,6 +347,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$ProblemaDelViajante.coverage" NAME="ProblemaDelViajante Coverage Results" MODIFIED="1745055554517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$quick_select.coverage" NAME="quick_select Coverage Results" MODIFIED="1744054360479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DivideVenceras/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$variaciones_lista.coverage" NAME="variaciones_lista Coverage Results" MODIFIED="1747332150490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/Ejercicios" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$two_sum_II_input_array_is_sorted.coverage" NAME="two_sum_II_input_array_is_sorted Coverage Results" MODIFIED="1749285784529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$es_dificil_copiar.coverage" NAME="es_dificil_copiar Coverage Results" MODIFIED="1743347878044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/Practica" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$diferencia_par_posiciones.coverage" NAME="diferencia_par_posiciones Coverage Results" MODIFIED="1747333816331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Prim.coverage" NAME="Prim Coverage Results" MODIFIED="1744304564352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
@@ -387,8 +402,10 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$particiones_numero.coverage" NAME="particiones_numero Coverage Results" MODIFIED="1747334152628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjerciciosExamen" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$mover_ceros_al_final.coverage" NAME="mover_ceros_al_final Coverage Results" MODIFIED="1743113302764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DoblePuntero/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$intercalacion_cadenas.coverage" NAME="intercalacion_cadenas Coverage Results" MODIFIED="1742720006879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recursividad/Ejercicios" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$3sum.coverage" NAME="3sum Coverage Results" MODIFIED="1749285173424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$Velada.coverage" NAME="Velada Coverage Results" MODIFIED="1741971636289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$generar_subconjuntos.coverage" NAME="generar_subconjuntos Coverage Results" MODIFIED="1747497844382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjemplosTipicos" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$3sum_closest.coverage" NAME="3sum_closest Coverage Results" MODIFIED="1749286328069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$a.coverage" NAME="a Coverage Results" MODIFIED="1747590249542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$capitan_cat_sparrow.coverage" NAME="capitan_cat_sparrow Coverage Results" MODIFIED="1745138499881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$maximum_depth_of_binary_tree.coverage" NAME="maximum_depth_of_binary_tree Coverage Results" MODIFIED="1748871955544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Arboles" />
