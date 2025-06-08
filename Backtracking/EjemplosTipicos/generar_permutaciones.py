@@ -1,5 +1,3 @@
-
-
 def imprimir_subconjunto(sol, n_elementos, elementos):
     print('{', end='')
     for i in range(0, n_elementos - 1):
@@ -60,3 +58,4 @@ print("Con repeticion:")
 elementos = ["a", "b", "c"]
 repeticiones = [2, 1, 1]
 generar_permutaciones_con_repeticion(elementos, repeticiones)
+
