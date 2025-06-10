@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Arrays/contains_duplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Conjuntos/contains_duplicate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +145,8 @@
     "Python.torres_de_hanoi.executor": "Run",
     "Python.two_sum_II_input_array_is_sorted.executor": "Run",
     "Python.unique_binary_search_trees.executor": "Run",
+    "Python.valid_parentheses.executor": "Run",
+    "Python.valid_sudoku.executor": "Run",
     "Python.variaciones_lista.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -168,9 +169,9 @@
       <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\EjemplosTipicos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AlgoritmosPython\LeetCode\TablasHash" />
       <recent name="D:\AlgoritmosPython\LeetCode\Conjuntos" />
       <recent name="D:\AlgoritmosPython\LeetCode\Arrays" />
-      <recent name="D:\AlgoritmosPython\LeetCode\TablasHash" />
       <recent name="D:\AlgoritmosPython\LeetCode\ProgramacionDinamica" />
       <recent name="D:\AlgoritmosPython\LeetCode\DoblePuntero" />
     </key>
@@ -262,7 +263,8 @@
       <workItem from="1749317575801" duration="2413000" />
       <workItem from="1749399640630" duration="223000" />
       <workItem from="1749404011372" duration="3279000" />
-      <workItem from="1749454704243" duration="4891000" />
+      <workItem from="1749454704243" duration="7959000" />
+      <workItem from="1749542800266" duration="6136000" />
     </task>
     <servers />
   </component>
@@ -379,6 +381,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$numero_palindromo.coverage" NAME="numero_palindromo Coverage Results" MODIFIED="1748610714544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/DoblePuntero" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$es_palindromo.coverage" NAME="es_palindromo Coverage Results" MODIFIED="1743108743349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DoblePuntero/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$A.coverage" NAME="A Coverage Results" MODIFIED="1747388787447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$valid_sudoku.coverage" NAME="valid_sudoku Coverage Results" MODIFIED="1749546462306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$CapitanCatSparrow.coverage" NAME="CapitanCatSparrow Coverage Results" MODIFIED="1742551091708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/Practicas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$busqueda_binaria.coverage" NAME="busqueda_binaria Coverage Results" MODIFIED="1742640364831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/BusquedasLista" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$combinaciones_enteros.coverage" NAME="combinaciones_enteros Coverage Results" MODIFIED="1747329831049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/Ejercicios" />
@@ -407,6 +410,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$unique_binary_search_trees.coverage" NAME="unique_binary_search_trees Coverage Results" MODIFIED="1749317978137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$reverse_nodes_in_k_group.coverage" NAME="reverse_nodes_in_k_group Coverage Results" MODIFIED="1749117054052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/ListasEnlazadas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$operacion_fracaso.coverage" NAME="operacion_fracaso Coverage Results" MODIFIED="1742657346711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/Practica" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$valid_parentheses.coverage" NAME="valid_parentheses Coverage Results" MODIFIED="1749548053405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Pilas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$recorridos_arboles.coverage" NAME="recorridos_arboles Coverage Results" MODIFIED="1743255353565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recorridos_Busquedas/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$dijkstra.coverage" NAME="dijkstra Coverage Results" MODIFIED="1747584833766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgoritmosVoraces/AlgoritmosGrafos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$N_torres.coverage" NAME="N_torres Coverage Results" MODIFIED="1747334122078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/EjerciciosExamen" />
