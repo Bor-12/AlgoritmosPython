@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="533df489-b56d-4523-9d3f-bb3b3f92d178" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/reorder_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/ListasEnlazadas/reorder_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +131,7 @@
     "Python.quick_sort.executor": "Run",
     "Python.recorridos_arboles.executor": "Run",
     "Python.remove_duplicates_from_sorted_array.executor": "Run",
+    "Python.reorder-linked_list.executor": "Run",
     "Python.resolver_laberinto.executor": "Run",
     "Python.reverse_integer.executor": "Run",
     "Python.reverse_nodes_in_k_group.executor": "Run",
@@ -172,8 +174,8 @@
       <recent name="D:\AlgoritmosPython\AlgoritmosVoraces\EjemplosTipicos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\AlgoritmosPython\LeetCode\Backtracking" />
       <recent name="D:\AlgoritmosPython\LeetCode\DoblePuntero" />
+      <recent name="D:\AlgoritmosPython\LeetCode\Backtracking" />
       <recent name="D:\AlgoritmosPython\LeetCode\TablasHash" />
       <recent name="D:\AlgoritmosPython\LeetCode\Conjuntos" />
       <recent name="D:\AlgoritmosPython\LeetCode\Arrays" />
@@ -268,7 +270,8 @@
       <workItem from="1749404011372" duration="3279000" />
       <workItem from="1749454704243" duration="7959000" />
       <workItem from="1749542800266" duration="6629000" />
-      <workItem from="1749627012186" duration="4356000" />
+      <workItem from="1749627012186" duration="4454000" />
+      <workItem from="1749714066954" duration="3647000" />
     </task>
     <servers />
   </component>
@@ -399,6 +402,7 @@
     <SUITE FILE_PATH="coverage/AlgoritmosPython$expresion_add_operators.coverage" NAME="expresion_add_operators Coverage Results" MODIFIED="1748948030341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Backtracking" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$permutations_II.coverage" NAME="permutations_II Coverage Results" MODIFIED="1749033155083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Backtracking" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$problema_del_viajante.coverage" NAME="problema_del_viajante Coverage Results" MODIFIED="1747244962861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Backtracking/Practicas" />
+    <SUITE FILE_PATH="coverage/AlgoritmosPython$reorder_linked_list.coverage" NAME="reorder-linked_list Coverage Results" MODIFIED="1749716300701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/ListasEnlazadas" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$SubirEscaleras.coverage" NAME="SubirEscaleras Coverage Results" MODIFIED="1742585926912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/EjemplosTipicos" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$palindromo_mas_grande.coverage" NAME="palindromo_mas_grande Coverage Results" MODIFIED="1742722986465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programacion dinamica/Ejercicios" />
     <SUITE FILE_PATH="coverage/AlgoritmosPython$products_of_array_except_self.coverage" NAME="products_of_array_except_self Coverage Results" MODIFIED="1749457915735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode/Arrays" />
