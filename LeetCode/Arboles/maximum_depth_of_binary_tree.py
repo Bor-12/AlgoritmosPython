@@ -21,7 +21,7 @@ def maxDepth(root: Optional[TreeNode]) -> int:
     cola = deque([root])
     while cola:
         for i in range(len(cola)):
-            nodo = cola.pop()
+            nodo = cola.popleft()
             if nodo.left:
                 cola.append(nodo.left)
             if nodo.right:
