@@ -13,7 +13,7 @@ def cambio_voraz(valores_monedas: list[int], monto_objetivo: int) -> list[int]:
     Returns:
         List[int]: Lista con la cantidad de cada moneda utilizada.
     """
-    solucion_cambio = [0] * len(valor_monedas)
+    solucion_cambio = [0] * len(valores_monedas)
     indice = 0
     while indice < len(valores_monedas):
         if not cabe(valores_monedas[indice], monto_objetivo):
